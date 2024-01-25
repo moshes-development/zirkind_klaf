@@ -1,0 +1,18 @@
+https://docs.google.com/forms/d/e/1FAIpQLSed7g3J3gdfA7fPDi-L9lYsfCl1RKY7_8KJpWcBjyR67T8HeQ/formResponse
+
+entry.2119975909 =name
+entry.882711204 =email
+entry.1469245307 =phone
+entry.1178003195 =Yes
+entry.519395096 =address
+entry.230606992 =city
+entry.605119317 =state
+entry.493210946 =zip
+entry.1820947418 =Mezuzah
+entry.780032804 =10+cm
+entry.1183928559 =1
+entry.21203740n =Chabad+shel+rosh
+entry.328484475 =1
+entry.487402266 =36+cm
+entry.905816867 =1
+entry.292184923 =custom

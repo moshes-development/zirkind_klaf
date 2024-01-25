@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b58794c0ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="/assets/styles/responsive.css" />
+    <title>Zirkind Klaf</title>
+  </head>
+  <body id="body">
+    <header class="header">
+      <h1>
+        <a href="#">Zirkind Klaf</a>
+      </h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon" id="menuIcon">
+        <i class="fa-solid fa-bars menu-icon"></i>
+      </div>
+    </header>
+
+    <section id="menu" class="menu">
+      <div id="xMark">
+        <i class="fa-solid fa-xmark x-mark"></i>
+      </div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </section>
+
+    <section class="show-case">
+      <div class="content">
+        <p>Do you need klaf?</p>
+        <a href="#order">
+          <button class="btn">Order Now</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>Welcome to Zirkind Klaf, where tradition meets craftsmanship in the art of creating quality klaf for writing Sefer Torah and Mezuzahs.</p>
+      <a class="galLink" href="gallery.html">View Gallery</a>
+    </section>
+
+    <section class="order-form">
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSed7g3J3gdfA7fPDi-L9lYsfCl1RKY7_8KJpWcBjyR67T8HeQ/formResponse" method="post">
+        <div class="info">
+          <input name="entry.2119975909" type="text" placeholder="Name" />
+          <input name="entry.882711204" type="text" placeholder="Email" />
+          <input name="entry.1469245307" type="text" placeholder="Phone" />
+        </div>
+
+        <div class="shipping">
+          <label>Do you want shipping?</label>
+          <select name="entry.1178003195">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+
+        <div class="shipping-info">
+          <input name="entry.519395096" type="text" placeholder="Address" />
+          <input name="entry.230606992" type="text" placeholder="City" />
+          <input name="entry.605119317" type="text" placeholder="State" />
+          <input name="entry.493210946" type="text" placeholder="Zip" />
+        </div>
+        <div class="type">
+          <label>Choose klaf type</label>
+          <select name="entry.1820947418">
+            <option>Mezuzah</option>
+            <option>Teffilin</option>
+            <option>Yeriah</option>
+            <option>Custom</option>
+          </select>
+        </div>
+        <div class="mezuzah">
+          <label>Choose mezuzah size</label>
+          <select name="entry.780032804">
+            <option>10 cm</option>
+            <option>12 cm</option>
+            <option>15 cm</option>
+            <option>20 cm</option>
+          </select>
+          <br />
+          <label>Choose an amount</label>
+          <select name="entry.1183928559">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <div class="teffilin">
+          <label>Choose a teffilin size</label>
+          <select name="entry.21203740n">
+            <option>Chabad Shel Rosh</option>
+            <option>Chabad Shel Yad</option>
+          </select>
+          <br />
+          <label>Choose an amount</label>
+          <select name="entry.328484475">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <div class="yeriah">
+          <label>Choose a yeriah size</label>
+          <select name="entry.487402266">
+            <option>36 cm</option>
+            <option>48 cm</option>
+          </select>
+          <br />
+          <label>Choose an amount</label>
+          <select name="entry.905816867">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <div class="custom">
+          <textarea name="entry.292184923" placeholder="Add custom details"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- <section class="order-form">
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSdz9J5I_aj-BNX1XOMsXfBl1bARMXjCvxvg9d6fgw6ZtFm85A/formResponse" method="post">
+        <div class="info">
+          <input name="entry.1157147825" type="text" placeholder="Name" />
+          <input name="entry.337029605" type="text" placeholder="Email" />
+          <input name="entry.1385254294" type="text" placeholder="Phone" />
+          <br />
+          <label>Do you want shipping?</label>
+          <select name="entry.26282841">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+        <div class="shipping">
+          <input name="entry.563860095" type="text" placeholder="Address" />
+          <input name="entry.658557164" type="text" placeholder="City" />
+          <input name="entry.1767681243" type="text" placeholder="State" />
+          <input name="entry.1718301667" type="text" placeholder="Zip" />
+        </div>
+        <div class="type">
+          <label>Choose klaf type</label>
+          <select name="entry.832757840">
+            <option>Mezuzah</option>
+            <option>Teffilin</option>
+            <option>Yeriah</option>
+            <option>Custom</option>
+          </select>
+        </div>
+        <div class="mezuzah">
+          <label>Choose mezuzah size</label>
+          <select name="entry.1501977468">
+            <option>10 cm</option>
+            <option>12 cm</option>
+            <option>15 cm</option>
+            <option>20 cm</option>
+          </select>
+          <br />
+          <label>Choose an amount</label>
+          <select name="entry.103223489">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <div class="teffilin">
+          <label>Choose a teffilin size</label>
+          <select name="entry.906942738">
+            <option>Chabad Shel Rosh</option>
+            <option>Chabad Shel Yad</option>
+          </select>
+          <br />
+          <label>Choose an amount</label>
+          <select name="entry.913647597">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <div class="yeriah">
+          <label>Choose a yeriah size</label>
+          <select name="entry.523100915">
+            <option>36 cm</option>
+            <option>48 cm</option>
+          </select>
+          <br />
+          <label>Choose an amount</label>
+          <select name="entry.203755552">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <div class="custom">
+          <textarea name="entry.986308982" placeholder="Add custom details"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section> -->
+
+    <!-- <section id="order" class="order">
+      <h2>Order</h2>
+      <form method="POST" action="https://script.google.com/macros/s/AKfycbw2xdKOSom7ZFXMR0qErHjStlUA9jDdmI8LvEfIHOES3SAGkD4TlAXZxfldQZSDwOKHZg/exec">
+        <input name="Name" type="text" placeholder="Enter name" />
+        <br />
+        <input name="Email" type="email" placeholder="Enter email" />
+        <br />
+        <input name="Phone" type="tel" placeholder="Enter phone number" />
+        <br />
+
+        <span class="shipping-form">
+          <label for="shipping">Do you want shipping?</label>
+          <input class="check-box" type="checkbox" id="shipping" />
+        </span>
+
+        <div id="shippingInfo">
+          <input id="address" name="Address" type="text" placeholder="Enter Address" />
+          <input id="address" name="City" type="text" placeholder="Enter City" />
+          <input id="address" name="State" type="text" placeholder="Enter State" />
+          <input id="address" name="Zip" type="text" placeholder="Enter Zip Code" />
+        </div>
+
+        <br />
+        <div id="typesOfKlaf">
+          <label class="lable-for-type">Choose a type of klaf:</label>
+          <select name="Type" id="types">
+            <option></option>
+            <option id="mezuzahType" name="mezuzah" value="mezuzah">Mezuzah</option>
+            <option id="teffilinType" name="teffilin" value="teffilin">Teffilin</option>
+            <option id="yeriahType" name="torah" value="yeriah">Yeriah</option>
+            <option id="customType" name="torah" value="custom">Custom</option>
+          </select>
+        </div>
+        <div id="mezuzah">
+          <label class="lable-for-size" for="sizes">Choose a size (Mezuzah):</label>
+          <select name="MezuzahSize" id="mezuzahSize">
+            <option></option>
+            <option value="10">10cm</option>
+            <option value="12">12 cm</option>
+            <option value="15">15 cm</option>
+            <option value="20">20 cm</option>
+          </select>
+          <br />
+          <br />
+          <div id="" class="amount">
+            <label class="lable-fo-amount">Choose an amount</label>
+            <select name="" id="mezuzahAmounts">
+              <option></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="9">10</option>
+            </select>
+          </div>
+        </div>
+        <div id="teffilin">
+          <label class="lable-for-size" for="sizes">Choose a size (Teffilin):</label>
+          <select name="Sizes" id="teffilinSize">
+            <option></option>
+            <option name="Shel rosh" value="rosh">Shel Rosh</option>
+            <option name="shel rosh" value="yad">Shel Yad</option>
+          </select>
+          <br />
+          <br />
+          <div id="" class="amount">
+            <label class="lable-for-amount">Choose an amount: </label>
+            <select name="" id="teffilinAmounts">
+              <option></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="9">10</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="yeriah">
+          <label class="lable-for-size" for="sizes">Choose a size (Yeriah):</label>
+          <select name="Sizes" id="yeriahSize">
+            <option></option>
+            <option name="10" value="48">48 cm</option>
+            <option name="10" value="36">36 cm</option>
+          </select>
+          <br />
+          <br />
+          <div id="" class="amount">
+            <label class="lable-for-amount">Choose an amount:</label>
+            <select name="" id="yeriahAmounts">
+              <option></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+
+        <textarea id="customOrder" name="Details" placeholder="Enter custom order Details..."></textarea>
+
+        <p class="cartBtn" id="orderMore">Add to cart</p>
+
+        <div class="cart" id="cart">
+          <h2>Cart:</h2>
+        </div>
+        <button type="submit" class="btn">Submit Order</button>
+      </form>
+    </section> -->
+
+    <!-- <section id="order" class="order">
+      <iframe id="googleForm" class="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdz9J5I_aj-BNX1XOMsXfBl1bARMXjCvxvg9d6fgw6ZtFm85A/viewform?embedded=true" width="90%" height="1000px" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes">Loading…</iframe>
+    </section> -->
+
+    <div id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Phone: <a href="tel:6463878940">(646) 387-8940</a></p>
+      <p>Email: <a href="mailto:zirkindklaf@gmail.com">zirkindklaf@gmail.com</a></p>
+      <h3>Sofer Yhoshua Zirkind</h3>
+      <p>Phone: <a href="tel:9175584267">(917) 558-4267</a></p>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; Zirkind Klaf</p>
+      <p>Development by Moshe Perl</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <!-- <script src="form.js"></script> -->
+  </body>
+</html>

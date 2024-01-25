@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- https://script.google.com/macros/s/AKfycbwq2jaHFOPsAHm7Egft6KFkl1XBUaKRJdNwngl3yLLAnnCAhFrpAEaVwl6a-O95vXpk0Q/exec -->
+    <section id="order" class="order">
+      <div>
+        <div id="typesOfKlaf">
+          <label>Choose a type:</label>
+          <select id="types">
+            <option></option>
+            <option id="mezuzahType" name="mezuzah" value="mezuzah">Mezuzah</option>
+            <option id="teffilinType" name="teffilin" value="teffilin">Teffilin</option>
+            <option id="yeriahType" name="torah" value="yeriah">Yeriah</option>
+            <option id="customType" name="torah" value="custom">Custom</option>
+          </select>
+        </div>
+        <br />
+        <div id="mezuzah">
+          <label class="lable-for-size" for="sizes">Choose a size (Mezuzah):</label>
+          <select id="mezuzahSize">
+            <option></option>
+            <option value="10">10 cm</option>
+            <option value="12">12 cm</option>
+            <option value="15">15 cm</option>
+            <option value="20">20 cm</option>
+          </select>
+          <div id="" class="amount">
+            <label>Choose an amount</label>
+            <select name="" id="mezuzahAmounts">
+              <option></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="9">10</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="teffilin">
+          <label class="lable-for-size" for="sizes">Choose a size (Teffilin):</label>
+          <select name="Sizes" id="teffilinSize">
+            <option></option>
+            <option name="Shel rosh" value="rosh">Shel Rosh</option>
+            <option name="shel rosh" value="yad">Shel Yad</option>
+          </select>
+          <div id="" class="amount">
+            <label>Choose an amount</label>
+            <select name="" id="teffilinAmounts">
+              <option></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="9">10</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="yeriah">
+          <label class="lable-for-size" for="sizes">Choose a size (Yeriah):</label>
+          <select name="Sizes" id="yeriahSize">
+            <option></option>
+            <option name="10" value="48">48 cm</option>
+            <option name="10" value="36">36 cm</option>
+          </select>
+          <div id="" class="amount">
+            <label>Choose an amount</label>
+            <select name="" id="yeriahAmounts">
+              <option></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+
+        <textarea id="customOrder" name="Details" placeholder="Enter custom order Details..."></textarea>
+
+        <p id="orderMore" class="btn">Order another type</p>
+        <br />
+        <div class="cart" id="cart">
+          <p>Cart:</p>
+        </div>
+      </div>
+    </section>
+    <script src="newform.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>

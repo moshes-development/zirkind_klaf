@@ -1,0 +1,58 @@
+@media screen and (min-width: 735px) {
+  .header {
+    .menu-icon {
+      display: none;
+    }
+    .nav {
+      display: flex;
+    }
+  }
+
+  .show-case {
+    p {
+      font-size: 30px;
+    }
+  }
+  .about {
+    width: 65%;
+  }
+
+  .order {
+    form {
+      input {
+        width: 60%;
+      }
+      textarea {
+        width: 60%;
+      }
+      .shipping-form {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .show-case {
+    p {
+      font-size: 30px;
+    }
+  }
+  .about {
+    width: 50%;
+  }
+
+  .order {
+    form {
+      input {
+        width: 30%;
+      }
+      textarea {
+        width: 30%;
+      }
+      .shipping-form {
+        width: 30%;
+      }
+    }
+  }
+}
